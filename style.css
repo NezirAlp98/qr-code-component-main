@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* css 'de bu ayarı yap */
+}
+body{
+    font-family: 'Outfit', sans-serif;
+}
+.main{
+    background-color:hsl(212, 45%, 89%) ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.top-side{
+    width: 100%;
+}
+.top-side img{
+    width: 100%;
+    border-radius: 10px;
+}
+.bottom-side{
+    text-align: center;
+}
+
+.title{
+    font-size: 1.3rem;
+    color: hsl(218, 44%, 22%);
+    margin-top: 15px;
+}
+.text{
+    margin-top: 10px;
+    font-size: 0.98rem;
+    color: hsl(220, 15%, 55%);
+    opacity: 0.8;
+}
+@media (max-width:400px){
+    /* .main{
+        display: none;
+    } */
+}
+/* - Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+@media only screen and (min-width: 401px) and (max-width: 767px) {
+    / Buraya 767 pikselin altındaki ekranlar için özel stil ekleyin /
+  
+    / Örnek: Mobil özel yazı tipi ayarı /
+    font-size: 14px;
+  }
+  
+  / Orta ekranlar (yatay tabletler, küçük dizüstü bilgisayarlar) /
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    / Buraya 768-991 piksel arası ekranlar için özel stil ekleyin /
+  }
+  
+  / Büyük ekranlar (dizüstü bilgisayarlar, masaüstü bilgisayarlar) /
+  @media only screen and (min-width: 992px) {
+    / Buraya 992 pikselin üstündeki ekranlar için özel stil ekleyin */
+  }
